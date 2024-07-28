@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "figtree-italic";
+    src: url(fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'figtree-light';
+    src: url(fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'figtree-extrabold';
+    src: url(fonts/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'figtree-semibold';
+    src: url(fonts/Figtree-SemiBold.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+body{
+    font-family: 'figtree-light';
+    color: hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card{
+    width: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 7.5%;
+    padding: 15px;
+    min-width: 300px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: .5px ;
+    box-shadow: 8px 8px;
+    padding: 20px;
+
+}
+
+.cover{
+    border-radius: 10px ;
+    margin-bottom: 23px;
+  
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%) ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: small;
+    font-family: 'figtree-extrabold';
+    
+}
+
+.card :nth-child(3)
+{
+    margin-top: 18px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-family: 'figtree-semibold';
+    
+}
+
+.card > h1{
+    font-size:20px ;
+    font-family: 'figtree-extrabold';
+    margin-bottom: 15px;
+}
+
+.card > h1 :hover {
+    font-size:20px ;
+    font-family: 'figtree-extrabold';
+    margin-bottom: 15px;
+    color:  hsl(47, 88%, 63%);
+    cursor: pointer;
+
+}
+
+.card :nth-child(5) {
+    font-family: 'figtree-semibold';
+    color: hsl(0, 0%, 42%);
+    font-size: 14px;
+    margin-bottom: 25px ;
+    line-height: 1.5;
+    
+}
+
+.card > div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.card > div > img {
+
+    width: 10%;
+    
+}
+
+.card > div > p {
+    font-family: 'figtree-extrabold';
+    font-size: smaller;
+    align-self: center;
+    margin-left: 11px;
+    
+}
+
+
+@media (min-width:414px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    }
+    
+
+
+
+
